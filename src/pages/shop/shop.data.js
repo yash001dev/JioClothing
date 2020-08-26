@@ -16,11 +16,11 @@ const SHOP_DATA = [
     title: "Sneakers",
     routeName: "sneakers",
     items:[
-      {id:1,name:'Brown Brim',imageUrl:'https://images.unsplash.com/photo-1579338559194-a162d19bf842?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',price:35},
-      {id:2,name:'Blue Brim',imageUrl:'https://images.unsplash.com/photo-1512374382149-233c42b6a83b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80',price:55},
-      {id:3,name:'Red Brim',imageUrl:'https://images.unsplash.com/photo-1552346154-21d32810aba3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',price:75},
-      {id:4,name:'Green Brim',imageUrl:'https://images.unsplash.com/photo-1560906983-d72d8fd6f9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',price:65},
-      {id:5,name:'Oranged Brim',imageUrl:'https://images.unsplash.com/photo-1579199265916-436a773ce30b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',price:85},
+      {id:6,name:'Brown Brim',imageUrl:'https://images.unsplash.com/photo-1579338559194-a162d19bf842?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',price:35},
+      {id:7,name:'Blue Brim',imageUrl:'https://images.unsplash.com/photo-1512374382149-233c42b6a83b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80',price:55},
+      {id:8,name:'Red Brim',imageUrl:'https://images.unsplash.com/photo-1552346154-21d32810aba3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',price:75},
+      {id:9,name:'Green Brim',imageUrl:'https://images.unsplash.com/photo-1560906983-d72d8fd6f9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',price:65},
+      {id:10,name:'Oranged Brim',imageUrl:'https://images.unsplash.com/photo-1579199265916-436a773ce30b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',price:85},
     ]
   },
   
