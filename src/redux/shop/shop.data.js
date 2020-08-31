@@ -1,5 +1,5 @@
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  hats:{
     id: 1,
     title: "Hats",
     routeName: "hats",
@@ -11,7 +11,7 @@ const SHOP_DATA = [
       {id:5,name:'Oranged Brim',imageUrl:'https://images.unsplash.com/photo-1531891570158-e71b35a485bc?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80',price:30},
     ]
   },
-  {
+  sneakers:{
     id: 2,
     title: "Sneakers",
     routeName: "sneakers",
@@ -24,6 +24,6 @@ const SHOP_DATA = [
     ]
   },
   
-];
+};
 
 export default SHOP_DATA;
