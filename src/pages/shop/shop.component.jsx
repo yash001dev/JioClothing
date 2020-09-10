@@ -18,12 +18,15 @@ class ShopPage extends React.Component {
     componentDidMount() {
         const { updateCollections } = this.props;
         const collectionRef = firestore.collection('collections');
-        collectionRef.onSnapshot(async snapshot => {
-            console.log("SNAPSHOT DATA:");
-            const collectionsMap = convertCollectionsSnapshotToMap(snapshot);
-            updateCollections(collectionsMap);
-            this.setState({ loading: false });
-        })
+        fetch('https://firestore.googleapis.com/v1/projects/jioclothing-db/databases/(default)/documents/collections')
+        .then(response=>response.json())
+        .then(collections=>console.log(collections));
+        // collectionRef.get().then(snapshot => {
+        //     console.log("SNAPSHOT DATA:");
+        //     const collectionsMap = convertCollectionsSnapshotToMap(snapshot);
+        //     updateCollections(collectionsMap);
+        //     this.setState({ loading: false });
+        // });
     }
     render() {
         const { match } = this.props;
