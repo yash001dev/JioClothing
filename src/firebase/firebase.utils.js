@@ -19,7 +19,7 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
     return;
   }
   const userRef = firestore.doc(`users/${userAuth.uid}`);
-  const snapshot = await userRef.get();
+  const snapshot = await userRef.get();  
   if (!snapshot.exists) {
     const { displayName, email } = userAuth;
     const createdAt = new Date();
@@ -45,7 +45,7 @@ export const addCollectionAndDocuments = async(collectionKey, objectsToAdd) => {
       const newDocRef=collectionRef.doc();
       batch.set(newDocRef,obj);
   });
-  return await batch.commit();
+  return await batch.commit(); 
 };
 
 
@@ -61,7 +61,7 @@ export const convertCollectionsSnapshotToMap=(collections)=>{
       }
     }
   );
-  return transformedCollection.reduce((accumlator,collection)=>{
+   return transformedCollection.reduce((accumlator,collection)=>{
     accumlator[collection.title.toLowerCase()]=collection;
     return accumlator;
   },{});
