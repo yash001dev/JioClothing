@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-import CollectionPage from '../collection/collection.component';
+// import CollectionPage from '../collection/collection.component';
 //import { firestore, convertCollectionsSnapshotToMap } from '../../firebase/firebase.utils';
 import { connect } from 'react-redux';
-import WithSpinner from '../../components/with-spinner/with-spinner.component';
+// import WithSpinner from '../../components/with-spinner/with-spinner.component';
 import { fetchCollectionsStart } from '../../redux/shop/shop.actions';
 
 import CollectionsOverviewContainer from '../../components/collections-overview/collections-overview.container';
